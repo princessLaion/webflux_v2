@@ -1,0 +1,23 @@
+spring:
+  application:
+    name: webflux_v2
+  # r2dbc
+  r2dbc:
+    url: r2dbc:h2:mem:///testdb
+    username: sa
+    password:
+
+  # H2 Database Configuration
+  h2:
+    console:
+      enabled: true
+  datasource:
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: password
+  jpa:
+    hibernate:
+      ddl-auto: update
+    defer-datasource-initialization: true
+

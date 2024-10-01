@@ -1,0 +1,5 @@
+insert into user_details (id, name, email)
+values (100001, 'John Smith', 'john.smith@webflux.com');
+
+insert into user_details (id, name, email)
+values (100002, 'Jane Smith', 'jane.smith@harvard.com');
